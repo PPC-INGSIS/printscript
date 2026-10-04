@@ -14,9 +14,9 @@ publishing {
                     "Modulo ${project.name} de PrintScript, un lenguaje de tipado estatico " +
                         "interpretado, escrito en Kotlin.",
                 )
-                url.set("https://github.com/ing-sis-PrintScript/printscript")
+                url.set("https://github.com/PPC-INGSIS/printscript")
                 scm {
-                    url.set("https://github.com/ing-sis-PrintScript/printscript")
+                    url.set("https://github.com/PPC-INGSIS/printscript")
                 }
             }
         }
@@ -24,7 +24,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/ing-sis-PrintScript/printscript")
+            url = uri("https://maven.pkg.github.com/PPC-INGSIS/printscript")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
